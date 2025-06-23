@@ -42,8 +42,8 @@ const projects = [
     title: "Personal Portfolio",
     description: "Modern portfolio website showcasing projects, skills, and professional experience.",
     image: p5,
-    link: "https://example.com/project5",
-    tags: ["React", "Three.js", "GSAP"],
+    link: "https://portfolio-janhvi-delta.vercel.app/",
+    tags: ["React JS", "CSS", "NPM", "Vite"],
   }
 ];
 
