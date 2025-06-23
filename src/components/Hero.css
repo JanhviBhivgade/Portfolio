@@ -1,0 +1,77 @@
+.hero-section {
+  display: flex;
+  /* Align content to the left */
+  justify-content: flex-start; 
+  align-items: center;
+  height: 100vh;
+  padding: 10rem; 
+  background: linear-gradient(90deg, orange, pink);;
+  color: #333;
+}
+
+/* Limit the width of the content */
+.hero-content {
+  max-width: 600px; 
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: linear-gradient(to right, #ff9a9e, #fad0c4); 
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: black
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color:black;
+}
+
+.hero-buttons {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  /*This gap is space between icon and text */
+  gap: 0.5rem; 
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #e63946;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #c92c3b;
+}
+
+.social-icons {
+  display: flex;
+  /* add space between icons */
+  gap: 1rem; 
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #e63946;
+}
